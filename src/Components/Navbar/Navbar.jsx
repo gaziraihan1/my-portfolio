@@ -6,12 +6,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
   const [menuToggle, setMenuToggle] = useState(false);
-  useEffect(() => {
-  if (menuToggle === true || menuToggle === false) {
+useEffect(() => {
+  if (menuToggle) {
     document.body.style.overflow = 'hidden';
-  } 
+  } else {
+    document.body.style.overflow = '';
+  }
 
-  // Cleanup if user navigates away
   return () => {
     document.body.style.overflow = '';
   };
@@ -29,7 +30,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="relative z-50 flex justify-between items-center px-4 py-3 text-white">
+    <nav className="relative z-50 flex justify-between items-center px-4 py-2 text-white">
       <div>
         <img src="/my-logo-3.png" alt="Logo" className="w-10 h-10 lg:w-14 lg:h-14 rounded-full" />
       </div>
