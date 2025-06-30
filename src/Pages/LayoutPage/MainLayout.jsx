@@ -10,7 +10,7 @@ const MainLayout = () => {
         <Navbar />
       </header>
 
-      <main className='px-2 md:px-3 lg:px-4 lg:w-11/12 2xl:w-10/12 mx-auto min-h-screen'>
+      <main className='px-4 lg:w-11/12 2xl:w-10/12 mx-auto min-h-screen'>
         <Outlet />
       </main>
 

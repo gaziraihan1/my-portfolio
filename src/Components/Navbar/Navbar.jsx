@@ -21,11 +21,11 @@ useEffect(() => {
 
   const links = (
     <>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About me</Link></li>
-      <li><Link to="/skills">Skills</Link></li>
-      <li><Link to="/projects">Projects</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
+      <li><a href='#'>Home</a></li>
+      <li><a href="#about-me">About me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </>
   );
 
@@ -81,7 +81,7 @@ useEffect(() => {
                 </button>
               </div>
 
-              <ul className="flex flex-col gap-4 p-4 bg-base-300 text-base font-medium rounded mt-4 md:mt-6">
+              <ul className="flex flex-col gap-4 p-4 bg-base-300 text-base font-medium rounded text-center">
                 {links}
                 <li>
                   <button className="cursor-pointer w-full px-4 py-2 bg-primary text-white rounded-md hover:bg-opacity-80 transition">
