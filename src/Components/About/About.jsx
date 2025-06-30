@@ -27,19 +27,19 @@ const About = () => {
             Hi! I’m <span className="font-semibold">Mohammad Raihan Gazi</span>,
             a passionate front-end developer from Dhaka, Bangladesh. I enjoy
             creating beautiful, responsive web apps using{" "}
-            <span className="text-primary font-medium">React</span> and{" "}
-            <span className="text-primary font-medium">Tailwind CSS</span>. My
+            <span className="text-green-500 font-medium">React</span> and{" "}
+            <span className="text-green-500 font-medium">Tailwind CSS</span>. My
             goal is to build fast, accessible, and visually pleasing websites
             that provide value to users.
           </p>
           <p className="text-base-content text-lg leading-relaxed">
             Currently expanding my skills in{" "}
-            <span className="font-medium text-secondary">Node.js</span> and{" "}
-            <span className="font-medium text-secondary">MongoDB</span> to
+            <span className="font-medium text-yellow-500">Node.js</span> and{" "}
+            <span className="font-medium text-yellow-500">MongoDB</span> to
             become a full-stack developer. I’m open to freelance projects,
             internships, or junior roles where I can grow and contribute.
           </p>
-          <h3 className="relative text-gray-300 inline-block text-lg font-semibold mt-8 mb-3 py-1">
+          <h2 className="relative text-gray-300 inline-block text-lg font-semibold mt-8 mb-3 py-1">
       Fun Facts
 
       {/* Full underline sliding in from left */}
@@ -57,7 +57,7 @@ const About = () => {
         animate={{ scaleX: 1, opacity: 1 }}
         transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
       />
-    </h3>
+    </h2>
           <ul className="list-disc list-inside text-base-content space-y-2">
             <li>
               I started coding at 18 and built my first game using plain
@@ -65,7 +65,7 @@ const About = () => {
             </li>
             <li>I'm a night owl — most of my coding happens after midnight!</li>
             <li>
-              When I'm not coding, I enjoy music and exploring design
+              When I'm not coding, I love to play games like football and exploring design
               inspirations.
             </li>
           </ul>
@@ -81,7 +81,7 @@ const About = () => {
       <img
         src="/profile-image.png"
         alt="Profile"
-        className="object-cover max-w-md mx-auto p-2 border-4 border-gray-600 rounded-xl"
+        className="object-cover w-full md:w-5/7 2xl:w-5/8 mx-auto p-2 border-4 border-gray-600 rounded-xl hover:shadow-[1px_1px_30px] shadow-gray-800"
       />
     </div>
       </div>

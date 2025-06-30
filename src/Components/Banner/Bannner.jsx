@@ -19,7 +19,7 @@ const Bannner = () => {
       }} className="text-3xl lg:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-indigo-500 to-green-500">
             Mohammad Raihan Gazi
         </motion.h2>
-        <motion.h4 animate={{
+        <motion.h2 animate={{
         borderColor: [
           "#ff0000", // Red
           "#ff9900", // Orange
@@ -35,24 +35,23 @@ const Bannner = () => {
         ease: "linear",
       }} className='text-lg md:text-xl xl:text-2xl font-medium mt-4 inline-block pl-0.5 border-s-2 rounded-full '>
             Mern/Full stack Developer
-        </motion.h4>
+        </motion.h2>
         <p className='text-sm md:text-base xl:text-lg text-gray-200 my-2 lg:my-4 px-4 md:px-0'>
             I'm a passionate MERN stack developer crafting modern, responsive web applications using MongoDB, Express.js, React, and Node.js. I love building fast, clean, and user-focused digital experiences.
         </p>
         <ul className='flex my-4 lg:my-6 gap-8 justify-center md:justify-start'>
             <li>
-                <a href="">
+                <a href="https://github.com/gaziraihan1" target='_blank' aria-label='Github'>
                     <FaGithub size={24}/>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/mohammad-raihan-gazi" target='_blank' aria-label='Linkedin'>
                     <FaLinkedin size={24}/>
                 </a>
             </li>
             <li>
-                <a href="
-                ">
+                <a href="https://x.com?cryptoosBoss" target='_blank' aria-label='X'>
                 <FaXTwitter size={24}/>
                 </a>
             </li>

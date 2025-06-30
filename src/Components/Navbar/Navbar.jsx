@@ -19,6 +19,7 @@ useEffect(() => {
 }, [menuToggle]);
 
 
+
   const links = (
     <>
       <li><a href='#'>Home</a></li>
@@ -30,7 +31,7 @@ useEffect(() => {
   );
 
   return (
-    <nav className="relative z-50 flex justify-between items-center px-4 py-2 text-white">
+    <nav className="relative z-50 flex justify-between items-center px-4 py-2  overflow-x-hidden">
       <div>
         <img src="/my-logo-3.png" alt="Logo" className="w-10 h-10 lg:w-14 lg:h-14 rounded-full" />
       </div>
@@ -57,20 +58,20 @@ useEffect(() => {
         {menuToggle && (
           <>
             <motion.div
-              className="fixed inset-0 bg-opacity-40 rounded-e-lg z-40 lg:hidden"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              onClick={() => setMenuToggle(false)}
-            />
+  className="fixed top-0 right-0 bg-opacity-40"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  exit={{ opacity: 0 }}
+  onClick={() => setMenuToggle(false)}
+/>
 
             <motion.div
-              className="fixed top-0 h-full w-64 z-50 bg-base-200 rounded-e-lg lg:hidden -right-2"
-              initial={{ x: "100%" }}
-              animate={{ x: "-8px" }} 
-              exit={{ x: "100%" }}
-              transition={{ type: 'tween', duration: 0.3 }}
-            >
+  className="fixed top-0 right-0 h-full w-64 z-50 bg-base-200 rounded-e-lg lg:hidden"
+  initial={{ x: '100%' }}
+  animate={{ x: 0 }}
+  exit={{ x: '100%' }}
+  transition={{ type: 'tween', duration: 0.3 }}
+>
               <div className="flex justify-end px-6 py-4 my-2">
                 <button
                   className="text-3xl cursor-pointer"
