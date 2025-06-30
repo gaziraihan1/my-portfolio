@@ -44,7 +44,7 @@ const Navbar = () => {
         }
       </div>
         {
-          menuToggle && <div className='absolute top-20 right-0 bg-base-200 py-4 px-8 rounded transition-all text-gray-200'>
+          menuToggle && <div className='lg:hidden absolute top-19 md:top-21 right-0 bg-base-200 py-4 px-8 rounded transition-all text-gray-200'>
             <ul className='flex flex-col gap-4 text-center'>
               {links}
               <li>

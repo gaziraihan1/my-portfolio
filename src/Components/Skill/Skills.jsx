@@ -40,7 +40,7 @@ const Skills = () => {
         </p>
         <div className='flex flex-wrap items-stretch justify-center gap-8 md:gap-16 bg-base-200 bg-opacity-30 backdrop-blur-lg border px-4 md:px-8 py-8 md:py-16 border-gray-700 rounded shadow-[1px_1px_10px] shadow-gray-800'>
           {
-            logos.map((logo, i) => <div key={i} className='flex-col p-4 gap-2 border border-gray-800 bg-base-200 bg-opacity-30 backdrop-blur-md rounded-lg flex items-center justify-between w-[90px] md:w-[150px] shadow-[1px_1px_20px_black] '><img className='w-16 md:w-22 flex justify-center items-center object-center  aspect-square' src={logo.logo} alt="" /> <span className='text-base lg:text-xl font-bold text-green-500'>{logo.name}</span></div>)
+            logos.map((logo, i) => <div key={i} className='flex-col p-4 gap-2 border border-gray-800 bg-base-200 bg-opacity-30 backdrop-blur-md rounded-lg flex items-center justify-between w-[90px] md:w-[150px] shadow-[1px_1px_20px_black] '><img className='w-16 md:w-22 flex justify-center items-center object-center  aspect-square' src={logo.logo} alt="" /> <span className='text-base lg:text-xl font-bold text-green-500 text-center py-0.5'>{logo.name}</span></div>)
           }
         </div>
       </div>
