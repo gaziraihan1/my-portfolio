@@ -37,7 +37,7 @@ const Navbar = () => {
       <div
         className="lg:hidden text-3xl cursor-pointer"
         onClick={() => setMenuToggle(!menuToggle)}
-        aria-label="Open Menu"
+        // aria-label="Open Menu"
       >
         {
           menuToggle ? <IoMdClose />: <HiOutlineMenuAlt3/>

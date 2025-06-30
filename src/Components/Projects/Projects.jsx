@@ -47,9 +47,9 @@ const Projects = () => {
               manage freelance tasks with ease.
             </p>
             <div className="mt-3 flex gap-2 flex-wrap">
-              <h4 className="font-semibold mb-1 text-gray-300">
+              <h3 className="font-semibold mb-1 text-gray-300">
                 Technologies:
-              </h4>
+              </h3>
               <div className="flex flex-wrap gap-2">
                 <div className="flex flex-wrap gap-3 text-2xl">
                   <SiHtml5 title="HTML5" className="text-orange-600" />
@@ -105,9 +105,9 @@ const Projects = () => {
               with user-friendly features.
             </p>
             <div className="mt-3 flex gap-2 flex-wrap">
-              <h4 className="font-semibold mb-1 text-gray-300">
+              <h3 className="font-semibold mb-1 text-gray-300">
                 Technologies:
-              </h4>
+              </h3>
               <div className="flex flex-wrap gap-2">
                 <div className="flex flex-wrap gap-3 text-2xl">
                   <SiHtml5 title="HTML5" className="text-orange-600" />
@@ -162,9 +162,9 @@ const Projects = () => {
               A web app to browse and share local events, meetups, and community activities easily.
             </p>
             <div className="mt-3 flex gap-2 flex-wrap">
-              <h4 className="font-semibold mb-1 text-gray-300">
+              <h3 className="font-semibold mb-1 text-gray-300">
                 Technologies:
-              </h4>
+              </h3>
               <div className="flex flex-wrap gap-2">
                 <div className="flex flex-wrap gap-3 text-2xl">
                   <SiHtml5 title="HTML5" className="text-orange-600" />
