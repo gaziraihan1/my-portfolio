@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className=" z-50 flex justify-between items-center px-4 py-2 overflow-x-hidden">
       <div>
-        <img src="/my-logo-3.png" alt="Logo" className="w-10 h-10 lg:w-14 lg:h-14 rounded-full" />
+        <img src="/my-logo-3.avif" alt="Logo" className="w-10 h-10 lg:w-14 lg:h-14 rounded-full" />
       </div>
 
       <ul className="hidden lg:flex gap-8 text-base font-medium text-gray-300">

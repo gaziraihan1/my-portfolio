@@ -61,7 +61,7 @@ const Bannner = () => {
         </button>
             </div>
             <div className='flex-1 w-4/6 md:w-11/12 lg:w-4/5 object-cover mx-auto relative'>
-                <img className='w-full p-2 md:p-4 border-b-2 border-yellow-500 lg:border-green-600 rounded-full' src="\profile-image.png" alt="" />
+                <img className='w-full p-2 md:p-4 border-b-2 border-yellow-500 lg:border-green-600 rounded-full' src="\profile-image.avif" alt="" />
                 <div className='absolute top-12 skew-2 rotate-12 -z-10 rounded-t-full rounded-b-full left-6 w-[90%] h-[60%] bg-gradient-to-tl from-gray-200  to-green-500'>
                 </div>
                 

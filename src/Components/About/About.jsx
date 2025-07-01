@@ -79,7 +79,7 @@ const About = () => {
          <div className="flex-1 md:w-5/6 mx-auto">
       
       <img
-        src="/portfolio-image.jpg"
+        src="/portfolio-image.avif"
         alt="Profile"
         className="object-cover w-full md:w-5/7 2xl:w-5/8 mx-auto p-2 border-4 border-gray-600 rounded-xl hover:shadow-[1px_1px_30px] shadow-gray-800"
       />
