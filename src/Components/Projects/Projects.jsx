@@ -129,7 +129,7 @@ const Projects = () => {
             </div>
             <div className="card-actions justify-between mt-4">
               <a
-                href="https://assignment-11-firebase-auth.web.app/"
+                href="https://ultra-blog.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary btn-sm"

@@ -1,20 +1,28 @@
 import React from 'react';
 import {motion} from 'framer-motion';
+// Frameworks, Tools & Languages Icons
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
+import { SiTailwindcss, SiJavascript, SiMongodb, SiExpress, SiVercel, SiNetlify,  SiFirebase } from 'react-icons/si';
 
-const logos = 
-[
-    {logo: "/html.png", name: 'HTML'},
-    {logo: "/css.png", name: 'CSS'},
-    {logo: "/javascript.png", name: 'JavaScript'},
-    {logo: "/react-2.svg", name: 'React'},
-    {logo: "/nodejsLight.svg", name: "Node JS"},
-    {logo: "/mongodb-logo.png", name: "MongoDB"},
-    {logo: "/github-logo.png", name: 'Github'},
-    {logo: "/firebase-logo.png", name: 'Firebase'}
-]
+
+const techStack = [
+  { name: 'HTML5', icon: <FaHtml5 size={64} className="text-orange-600" /> },
+  { name: 'CSS3', icon: <FaCss3Alt size={64} className="text-blue-600" /> },
+  { name: 'Tailwind CSS', icon: <SiTailwindcss size={64} className="text-cyan-500" /> },
+  { name: 'JavaScript', icon: <SiJavascript size={64} className="text-yellow-400" /> },
+  { name: 'ReactJS', icon: <FaReact size={64} className="text-cyan-400" /> },
+  { name: 'Node.js', icon: <FaNodeJs size={64} className="text-green-600" /> },
+  { name: 'Express.js', icon: <SiExpress size={64} className="text-gray-600" /> },
+  { name: 'MongoDB', icon: <SiMongodb size={64} className="text-green-500" /> },
+  { name: 'GitHub', icon: <FaGithub size={64} className="text-white rounded-full p-1" /> },
+  { name: 'Vercel', icon: <SiVercel size={64} className="text-black" /> },
+  { name: 'Netlify', icon: <SiNetlify size={64} className="text-teal-400" /> },
+  // { name: 'VS Code', icon: <SiVisualstudio className="text-blue-500" /> },
+  { name: 'Firebase', icon: <SiFirebase size={64} className="text-yellow-500" /> }
+];
+
 
 const Skills = () => {
-    console.log(logos)
     return (
         <div className="mt-12 md:mt-20 lg:mt-28 2xl:mt-36">
             <div className="relative inline-block">
@@ -40,7 +48,7 @@ const Skills = () => {
         </p>
         <div className='flex flex-wrap items-stretch justify-center gap-8 md:gap-16 bg-base-200 bg-opacity-30 backdrop-blur-lg border px-4 md:px-8 py-8 md:py-16 border-gray-700 rounded shadow-[1px_1px_10px] shadow-gray-800'>
           {
-            logos.map((logo, i) => <div key={i} className='flex-col p-4 gap-2 border border-gray-800 bg-base-200 bg-opacity-30 backdrop-blur-md rounded-lg flex items-center justify-between w-[90px] md:w-[150px] shadow-[1px_1px_20px_black] '><img className='w-16 md:w-22 flex justify-center items-center object-center  aspect-square' src={logo.logo} alt="" /> <span className='text-base lg:text-xl font-bold text-green-500 text-center py-0.5'>{logo.name}</span></div>)
+            techStack.map((logo, i) => <div key={i} className='flex-col p-4 gap-2 border border-gray-800 bg-base-200 bg-opacity-30 backdrop-blur-md rounded-lg flex items-center justify-between w-[90px] md:w-[150px] shadow-[1px_1px_20px_black] '> <span className='w-12 lg:w-14 flex justify-center items-center'>{logo.icon}</span> <span className='text-base lg:text-lg font-bold text-green-500 text-center py-0.5'>{logo.name}</span></div>)
           }
         </div>
       </div>
