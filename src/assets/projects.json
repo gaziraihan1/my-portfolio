@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Freelance Marketplace",
+    "description": "A platform connecting clients and freelancers to post, bid, and manage freelance tasks with ease.",
+    "technologies": [
+      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600" },
+      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600" },
+      { "name": "React", "icon": "SiReact", "color": "text-blue-400" },
+      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400" },
+      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600" },
+      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300" },
+      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700" },
+      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500" }
+    ],
+    "links": {
+      "live": "https://assignment-10-authentica-cdfec.web.app/",
+      "github": "https://github.com/gaziraihan1/freelance-marketplace-client.git"
+    },
+    "image": "/Project-1.png"
+  },
+  {
+    "title": "Blog Website",
+    "description": "A responsive blog platform for reading and publishing articles with user-friendly features.",
+    "technologies": [
+      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600" },
+      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600" },
+      { "name": "React", "icon": "SiReact", "color": "text-blue-400" },
+      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400" },
+      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300" },
+      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600" },
+      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700" },
+      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500" }
+    ],
+    "links": {
+      "live": "https://ultra-blog.netlify.app/",
+      "github": "https://github.com/gaziraihan1/"
+    },
+    "image": "/Project-2.png"
+  },
+  {
+    "title": "Discover Local Events",
+    "description": "A web app to browse and share local events, meetups, and community activities easily.",
+    "technologies": [
+      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600" },
+      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600" },
+      { "name": "React", "icon": "SiReact", "color": "text-blue-400" },
+      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400" },
+      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500" }
+    ],
+    "links": {
+      "live": "https://b11-assignment-9-auth.firebaseapp.com/",
+      "github": "https://github.com/gaziraihan1/local-event-manage.git"
+    },
+    "image": "/Project-3.png"
+  }
+]

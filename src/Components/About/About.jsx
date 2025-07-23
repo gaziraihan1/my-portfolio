@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="mt-12 md:mt-20 lg:mt-28 2xl:mt-36">
+    <div className="mt-8 md:mt-14 lg:mt-20 2xl:mt-28">
       <div className="relative inline-block">
         <h1 className="text-xl text-gray-200 font-semibold md:text-2xl lg:text-3xl 2xl:text-4xl ">
           About Me

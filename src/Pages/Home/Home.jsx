@@ -7,7 +7,7 @@ import Contact from "../../Components/Contact/Contact";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col gap-4">
+    <div className="min-h-screen flex flex-col gap-4 md:px-4">
       <Bannner />
       <section id="about-me">
         <About />
