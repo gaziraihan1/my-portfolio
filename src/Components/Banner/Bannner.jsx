@@ -87,10 +87,11 @@ const Banner = () => {
 
           <div className="mt-8">
             <a
-              href="/resume.pdf"
-              target="_blank"
+              href="/src/assets/resume-001.pdf"
+              download
               className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-indigo-500 text-white font-medium shadow-lg hover:scale-105 hover:shadow-green-400/40 transition-transform"
             >
+              
               View Resume
             </a>
           </div>
