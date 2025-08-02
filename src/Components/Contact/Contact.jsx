@@ -13,10 +13,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_4neqrox", // replace
-        "template_58k8zms", // replace
+        import.meta.env.VITE_service_id,
+        import.meta.env.VITE_template,
         form.current,
-        "QKm5EQww0nYl7SBPE" // replace
+        import.meta.env.VITE_public_key 
       )
       .then(
         (result) => {
@@ -98,14 +98,14 @@ const Contact = () => {
               className="w-full p-3 rounded bg-gray-800 text-white"
               type="text"
               placeholder="Your Name"
-              name="user_name"
+              name="name"
               required
             />
             <input
               className="w-full p-3 rounded bg-gray-800 text-white"
               type="email"
               placeholder="Your Email"
-              name="user_email"
+              name="email"
               required
             />
             <textarea

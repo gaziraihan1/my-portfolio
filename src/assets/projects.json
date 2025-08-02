@@ -14,7 +14,8 @@
     ],
     "links": {
       "live": "https://assignment-10-authentica-cdfec.web.app/",
-      "github": "https://github.com/gaziraihan1/freelance-marketplace-client.git"
+      "client": "https://github.com/gaziraihan1/freelance-marketplace-client.git",
+      "server": "https://github.com/gaziraihan1/freelance-marketplace-server.git"
     },
     "image": "/Project-1.png"
   },
@@ -33,23 +34,28 @@
     ],
     "links": {
       "live": "https://ultra-blog.netlify.app/",
-      "github": "https://github.com/gaziraihan1/"
+      "client": "https://github.com/gaziraihan1/Blog-page-client.git",
+      "server": "https://github.com/gaziraihan1/Blog-page-server.git"
     },
     "image": "/Project-2.png"
   },
   {
-    "title": "Discover Local Events",
-    "description": "A web app to browse and share local events, meetups, and community activities easily.",
+    "title": "Fitness care | Gym management",
+    "description": "A responsive web application to manage fitness agency, role based access for trainer admin and users.",
     "technologies": [
       { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600" },
       { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600" },
       { "name": "React", "icon": "SiReact", "color": "text-blue-400" },
+      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600" },
+      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700" },
       { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400" },
-      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500" }
+      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500" },
+      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300" }
     ],
     "links": {
-      "live": "https://b11-assignment-9-auth.firebaseapp.com/",
-      "github": "https://github.com/gaziraihan1/local-event-manage.git"
+      "live": "https://gym-management-auth-app.web.app/",
+      "client": "https://github.com/gaziraihan1/fitness-care-client.git",
+      "server": "https://github.com/gaziraihan1/fitness-care-server.git"
     },
     "image": "/Project-3.png"
   }

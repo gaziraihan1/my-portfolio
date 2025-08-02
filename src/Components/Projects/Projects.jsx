@@ -31,7 +31,6 @@ const Projects = () => {
             whileTap={{ scale: 0.98 }}
             className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col"
           >
-            {/* Image */}
             <div className="relative group">
               <img
                 src={project.image}
@@ -40,7 +39,6 @@ const Projects = () => {
               />
             </div>
 
-            {/* Body */}
             <div className="p-5 flex flex-col flex-1">
               <h3 className="text-xl font-semibold text-white mb-2">
                 {project.title}
@@ -49,7 +47,6 @@ const Projects = () => {
                 {project.description}
               </p>
 
-              {/* Technologies */}
               <div className="mt-4">
                 <h4 className="text-gray-400 text-sm mb-2">Technologies:</h4>
                 <div className="flex flex-wrap gap-3 text-xl">
@@ -68,7 +65,6 @@ const Projects = () => {
                 </div>
               </div>
 
-              {/* Actions */}
               <div className="mt-6 flex justify-between items-center">
                 <a
                   href={project.links.live}
@@ -78,14 +74,25 @@ const Projects = () => {
                 >
                   Live Demo
                 </a>
+                <div className="flex gap-2">
+
                 <a
-                  href={project.links.github}
+                  href={project.links.client}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 rounded-lg border border-gray-500 text-gray-300 text-sm font-medium hover:bg-gray-700 transition-colors"
                 >
-                  GitHub
+                  Client
                 </a>
+                <a
+                  href={project.links.server}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 rounded-lg border border-gray-500 text-gray-300 text-sm font-medium hover:bg-gray-700 transition-colors"
+                >
+                  Server
+                </a>
+                </div>
               </div>
             </div>
           </motion.div>
