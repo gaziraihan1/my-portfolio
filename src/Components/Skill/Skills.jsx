@@ -60,7 +60,7 @@ export default function Skills() {
             {title}
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
-            {skills.map(({ name, icon, level }, i) => (
+            {skills.map(({ name, icon}, i) => (
               <motion.div
                 key={i}
                 whileHover={{ scale: 1.05 }}
@@ -68,19 +68,7 @@ export default function Skills() {
               >
                 <div className="p-4 rounded-full bg-white/10">{icon}</div>
                 <h4 className="text-white font-medium">{name}</h4>
-                <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
-                  <motion.div
-                    initial={{ width: 0 }}
-                    whileInView={{ width: `${level}%` }}
-                    transition={{ duration: 1.2, ease: "easeInOut" }}
-                    animate={{
-                      scaleY: [1, 1.15, 1],
-                    }}
-                    
-                    className="h-full bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full shadow-[0_0_8px_rgba(59,130,246,0.8)]"
-                  />
-                </div>
-                <span className="text-sm text-gray-300">{level}%</span>
+                
               </motion.div>
             ))}
           </div>

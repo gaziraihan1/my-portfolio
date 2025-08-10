@@ -12,7 +12,6 @@ const Projects = () => {
         </h1>
       <div className="mt-8 md:mt-6 lg:mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
-          <Link to={`/project-details/${project.id}`}>
           <motion.div
             key={project.id}
             whileHover={{ scale: 1.02 }}
@@ -53,7 +52,10 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="mt-6 flex justify-between items-center">
+              <div className="mt-6 flex justify-between items-center flex-wrap">
+                <Link to={`/project-details/${project.id}`} className="px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors">
+                Details
+                </Link>
                 <a
                   href={project.links.live}
                   target="_blank"
@@ -84,7 +86,6 @@ const Projects = () => {
               </div>
             </div>
           </motion.div>
-          </Link>
         ))}
       </div>
     </div>
