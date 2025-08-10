@@ -13,7 +13,7 @@ const Banner = () => {
           flex flex-col-reverse md:flex-row items-center justify-between
           mt-6 md:mt-10 lg:mt-14 2xl:mt-18
           lg:min-h-[40vh] lg:max-h-[90vh]
-          max-w-8xl mx-auto px-6 py-12 gap-10 md:gap-10
+          max-w-8xl mx-auto px-6 lg:px-0 py-12 gap-10 md:gap-10
         "
       >
         <div className="md:w-1/2 text-center md:text-left">

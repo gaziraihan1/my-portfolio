@@ -2,31 +2,19 @@ import React from "react";
 import { motion } from "framer-motion";
 import projects from "../../assets/projects.json";
 import * as SiIcons from "react-icons/si";
+import { Link } from "react-router";
 
 const Projects = () => {
   return (
     <div className="mt-8 md:mt-14 lg:mt-20 2xl:mt-28">
-      <div className="relative inline-block">
-        <h1 className="text-xl text-gray-200 font-semibold md:text-2xl lg:text-3xl 2xl:text-4xl ">
-          Projects
+        <h1 className="text-center text-3xl font-bold text-white mb-10">
+          🚀 Projects
         </h1>
-        <motion.span
-          className="absolute w-full h-[2px] -bottom-3 left-0 bg-blue-500 rounded-full"
-          animate={{
-            backgroundColor: ["#6b7280", "#3b82f6", "#6b7280"],
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            repeatType: "loop",
-            ease: "easeInOut",
-          }}
-        />
-      </div>
       <div className="mt-8 md:mt-6 lg:mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project, idx) => (
+        {projects.map((project) => (
+          <Link to={`/project-details/${project.id}`}>
           <motion.div
-            key={idx}
+            key={project.id}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col"
@@ -96,6 +84,7 @@ const Projects = () => {
               </div>
             </div>
           </motion.div>
+          </Link>
         ))}
       </div>
     </div>

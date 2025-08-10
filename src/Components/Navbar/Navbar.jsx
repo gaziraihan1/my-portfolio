@@ -8,7 +8,7 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <a href="#" className="hover:text-blue-400 transition-colors duration-300">Home</a>
+        <a href="/" className="hover:text-blue-400 transition-colors duration-300">Home</a>
       </li>
       <li>
         <a href="#about-me" className="hover:text-blue-400 transition-colors duration-300">About me</a>
@@ -26,7 +26,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="z-50 flex justify-between items-center px-4 py-2 overflow-x-hidden">
+    <nav className="z-50 flex lg:w-11/12 2xl:w-10/12 lg:mx-auto justify-between items-center px-4 lg:px-0  py-2 overflow-x-hidden">
       <div>
         <img
           src="/my-logo-3.avif"

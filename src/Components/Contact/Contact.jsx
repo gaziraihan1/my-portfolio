@@ -31,23 +31,9 @@ const Contact = () => {
 
   return (
     <div className="mt-8 md:mt-14 lg:mt-20 2xl:mt-28">
-      <div className="relative inline-block">
-        <h1 className="text-xl text-gray-200 font-semibold md:text-2xl lg:text-3xl 2xl:text-4xl ">
-          Contact
+        <h1 className="text-center text-2xl lg:text-3xl font-bold text-white mb-8">
+          📬 Contact
         </h1>
-        <motion.span
-          className="absolute w-full h-[2px] -bottom-3 left-0 bg-blue-500 rounded-full"
-          animate={{
-            backgroundColor: ["#6b7280", "#3b82f6", "#6b7280"],
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            repeatType: "loop",
-            ease: "easeInOut",
-          }}
-        />
-      </div>
       <div className="mt-8 md:mt-6 lg:mt-10 flex flex-col md:flex-row gap-4 md:gap-6 lg:gap-10 xl:gap-12 2xl:gap-18">
         <div className="flex-1">
              <div className="space-y-6">

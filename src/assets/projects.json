@@ -1,16 +1,23 @@
 [
   {
+    "id":"268c259-b326f5-921cb4",
     "title": "Freelance Marketplace",
     "description": "A platform connecting clients and freelancers to post, bid, and manage freelance tasks with ease.",
+    "features": [
+      { "name": "User Authentication", "details": "Secure login and registration using Firebase authentication." },
+      { "name": "Project Bidding System", "details": "Freelancers can bid on projects with proposals, and clients can review and accept bids." },
+      { "name": "Role-based Access", "details": "Different dashboards and permissions for clients and freelancers." },
+      { "name": "Project Management", "details": "Track project progress from bidding to completion." }
+    ],
     "technologies": [
-      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600" },
-      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600" },
-      { "name": "React", "icon": "SiReact", "color": "text-blue-400" },
-      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400" },
-      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600" },
-      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300" },
-      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700" },
-      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500" }
+      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600", "reason": "Provides the structural foundation for the website." },
+      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600", "reason": "Used for styling layouts and ensuring visual consistency." },
+      { "name": "React", "icon": "SiReact", "color": "text-blue-400", "reason": "For creating interactive, dynamic, and reusable UI components." },
+      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400", "reason": "Used for rapid, mobile-friendly, and responsive styling." },
+      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600", "reason": "Backend runtime for handling asynchronous operations efficiently." },
+      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300", "reason": "Used to build and manage API endpoints for server logic." },
+      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700", "reason": "Stores project details, bids, and user data in a flexible schema." },
+      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500", "reason": "Handles authentication and real-time hosting." }
     ],
     "links": {
       "live": "https://assignment-10-authentica-cdfec.web.app/",
@@ -20,17 +27,24 @@
     "image": "/Project-1.png"
   },
   {
+    "id":"923c695-1f42c5-629f27",
     "title": "Blog Website",
     "description": "A responsive blog platform for reading and publishing articles with user-friendly features.",
+    "features": [
+      { "name": "User Blogs", "details": "Users can create, update, and delete blog posts." },
+      { "name": "Responsive Layout", "details": "Works smoothly on mobile, tablet, and desktop devices." },
+      { "name": "Comment System", "details": "Readers can add and manage comments in real-time." },
+      { "name": "Category Filters", "details": "Articles can be filtered by topic or tags." }
+    ],
     "technologies": [
-      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600" },
-      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600" },
-      { "name": "React", "icon": "SiReact", "color": "text-blue-400" },
-      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400" },
-      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300" },
-      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600" },
-      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700" },
-      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500" }
+      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600", "reason": "Ensures semantic and accessible markup for SEO benefits." },
+      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600", "reason": "Handles custom styling for the blog interface." },
+      { "name": "React", "icon": "SiReact", "color": "text-blue-400", "reason": "Renders posts dynamically and allows fast UI updates." },
+      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400", "reason": "Simplifies styling with a utility-first approach." },
+      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300", "reason": "Manages backend routes for blog and comment APIs." },
+      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600", "reason": "Provides a fast backend environment for API requests." },
+      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700", "reason": "Stores blog content, comments, and user info." },
+      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500", "reason": "Used for authentication and hosting." }
     ],
     "links": {
       "live": "https://ultra-blog.netlify.app/",
@@ -40,17 +54,24 @@
     "image": "/Project-2.png"
   },
   {
+    "id":"623b695-f346c5-629fb4",
     "title": "Fitness care | Gym management",
-    "description": "A responsive web application to manage fitness agency, role based access for trainer admin and users.",
+    "description": "A responsive web application to manage a fitness agency with role-based access for trainers, admins, and users.",
+    "features": [
+      { "name": "Role-Based Dashboard", "details": "Admins, trainers, and members have separate dashboards." },
+      { "name": "Trainer Management", "details": "Admins can add, update, or remove trainers." },
+      { "name": "Membership Plans", "details": "Users can view and purchase membership packages." },
+      { "name": "Class Scheduling", "details": "Trainers can set workout schedules visible to members." }
+    ],
     "technologies": [
-      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600" },
-      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600" },
-      { "name": "React", "icon": "SiReact", "color": "text-blue-400" },
-      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600" },
-      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700" },
-      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400" },
-      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500" },
-      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300" }
+      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600", "reason": "Builds the foundational page structure." },
+      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600", "reason": "Styles layouts and UI components." },
+      { "name": "React", "icon": "SiReact", "color": "text-blue-400", "reason": "Provides dynamic rendering for dashboards and schedules." },
+      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600", "reason": "Handles server-side logic for role-based features." },
+      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700", "reason": "Stores user roles, class schedules, and membership data." },
+      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400", "reason": "Speeds up responsive UI development." },
+      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500", "reason": "Used for authentication and hosting." },
+      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300", "reason": "Provides backend routing and APIs for data access." }
     ],
     "links": {
       "live": "https://gym-management-auth-app.web.app/",
@@ -58,5 +79,32 @@
       "server": "https://github.com/gaziraihan1/fitness-care-server.git"
     },
     "image": "/Project-3.png"
+  },
+  {
+    "id":"523f695-f346c3-6bcf24",
+    "title": "Skill Swap | Peer to Peer Platform",
+    "description": "A platform where users can exchange skills with each other without monetary transactions.",
+    "features": [
+      { "name": "Skill Listing", "details": "Users can post skills they offer and search for skills they need." },
+      { "name": "Peer Matching", "details": "Matches users based on skill needs and availability." },
+      { "name": "Secure Messaging", "details": "In-app chat for arranging skill exchange details." },
+      { "name": "Transaction Tracking", "details": "Tracks completed exchanges and feedback ratings." }
+    ],
+    "technologies": [
+      { "name": "HTML5", "icon": "SiHtml5", "color": "text-orange-600", "reason": "Used for basic markup and content structure." },
+      { "name": "CSS3", "icon": "SiCss3", "color": "text-blue-600", "reason": "Ensures consistent styling and layout control." },
+      { "name": "Next JS", "icon": "SiNextdotjs", "color": "text-black", "reason": "Provides server-side rendering for better SEO and fast performance." },
+      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-green-600", "reason": "Enables backend logic for skill matching and transactions." },
+      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-700", "reason": "Stores user profiles, skills, and transaction history." },
+      { "name": "Tailwind CSS", "icon": "SiTailwindcss", "color": "text-teal-400", "reason": "For rapid UI styling and responsiveness." },
+      { "name": "Firebase", "icon": "SiFirebase", "color": "text-yellow-500", "reason": "Used for authentication and real-time updates." },
+      { "name": "Express", "icon": "SiExpress", "color": "text-gray-800 dark:text-gray-300", "reason": "Handles API endpoints for skill and user data." }
+    ],
+    "links": {
+      "live": "https://skill-swap-application.vercel.app/",
+      "client": "https://github.com/gaziraihan1/skill-swap-client.git",
+      "server": "https://github.com/gaziraihan1/skill-swap-server.git"
+    },
+    "image": "/Project-4.png"
   }
 ]
