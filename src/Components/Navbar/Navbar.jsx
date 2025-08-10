@@ -41,7 +41,9 @@ const Navbar = () => {
 
       <div className="hidden lg:block">
         <button className="px-6 py-2 bg-primary text-white rounded-md hover:bg-opacity-80 transition-all duration-300">
-          <a href="/resume-001.pdf" download>Resume</a>
+          <a href="/resume-viewer"
+              target="_blank"
+              rel="noopener noreferrer">Resume</a>
         </button>
       </div>
 

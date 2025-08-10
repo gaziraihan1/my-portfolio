@@ -4,7 +4,7 @@ import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <section className="mt-6 md:mt-10 lg:mt-14 2xl:mt-18 relative overflow-hidden">
+    <section className="mt-6 md:mt-10 lg:mt-14 2xl:mt-18 relative overflow-hidden px-4">
       <div className="absolute top-0 right-0 w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-green-400/20 via-blue-500/10 to-purple-400/20 blur-3xl pointer-events-none"></div>
 
       <div
@@ -87,11 +87,11 @@ const Banner = () => {
 
           <div className="mt-8">
             <a
-              href="/resume-001.pdf"
-              download
+              href="/resume-viewer"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-green-500 to-indigo-500 text-white font-medium shadow-lg hover:scale-105 hover:shadow-green-400/40 transition-transform"
             >
-              
               View Resume
             </a>
           </div>
