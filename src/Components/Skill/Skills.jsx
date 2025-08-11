@@ -22,36 +22,36 @@ const skillCategories = [
   {
     title: "Frontend",
     skills: [
-      { name: "HTML5", icon: <FaHtml5 size={40} className="text-orange-500" />, level: 95 },
-      { name: "CSS3", icon: <FaCss3Alt size={40} className="text-blue-500" />, level: 90 },
-      { name: "Tailwind CSS", icon: <SiTailwindcss size={40} className="text-cyan-400" />, level: 90 },
-      { name: "JavaScript", icon: <SiJavascript size={40} className="text-yellow-400" />, level: 85 },
-      { name: "ReactJS", icon: <FaReact size={40} className="text-cyan-300" />, level: 88 },
-      { name: "Next.js", icon: <SiNextdotjs size={40} className="text-white" />, level: 82 },
+      { name: "HTML5", icon: <FaHtml5 size={40} className="text-orange-500" /> },
+      { name: "CSS3", icon: <FaCss3Alt size={40} className="text-blue-500" /> },
+      { name: "Tailwind CSS", icon: <SiTailwindcss size={40} className="text-cyan-400" /> },
+      { name: "JavaScript", icon: <SiJavascript size={40} className="text-yellow-400" /> },
+      { name: "ReactJS", icon: <FaReact size={40} className="text-cyan-300" /> },
+      { name: "Next.js", icon: <SiNextdotjs size={40} className="text-white" /> },
     ],
   },
   {
     title: "Backend",
     skills: [
-      { name: "Node.js", icon: <FaNodeJs size={40} className="text-green-500" />, level: 80 },
-      { name: "Express.js", icon: <SiExpress size={40} className="text-gray-400" />, level: 75 },
-      { name: "MongoDB", icon: <SiMongodb size={40} className="text-green-400" />, level: 70 },
+      { name: "Node.js", icon: <FaNodeJs size={40} className="text-green-500" /> },
+      { name: "Express.js", icon: <SiExpress size={40} className="text-gray-400" /> },
+      { name: "MongoDB", icon: <SiMongodb size={40} className="text-green-400" /> },
     ],
   },
   {
     title: "Tools & Hosting",
     skills: [
-      { name: "GitHub", icon: <FaGithub size={40} className="text-white" />, level: 85 },
-      { name: "Vercel", icon: <SiVercel size={40} className="text-black dark:text-white" />, level: 80 },
-      { name: "Netlify", icon: <SiNetlify size={40} className="text-teal-400" />, level: 78 },
-      { name: "Firebase", icon: <SiFirebase size={40} className="text-yellow-500" />, level: 65 },
+      { name: "GitHub", icon: <FaGithub size={40} className="text-white" /> },
+      { name: "Vercel", icon: <SiVercel size={40} className="text-black dark:text-white" /> },
+      { name: "Netlify", icon: <SiNetlify size={40} className="text-teal-400" /> },
+      { name: "Firebase", icon: <SiFirebase size={40} className="text-yellow-500" /> },
     ],
   },
 ];
 
 export default function Skills() {
   return (
-    <section className="mt-8 md:mt-14 lg:mt-20 2xl:mt-28">
+    <section className="mt-8 md:mt-14 lg:mt-20 2xl:mt-28 px-6">
       <h2 className="text-center text-3xl font-bold text-white mb-10">💡 My Skills</h2>
 
       {skillCategories.map(({ title, skills }, idx) => (

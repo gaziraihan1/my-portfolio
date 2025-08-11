@@ -21,8 +21,7 @@
     ],
     "links": {
       "live": "https://assignment-10-authentica-cdfec.web.app/",
-      "client": "https://github.com/gaziraihan1/freelance-marketplace-client.git",
-      "server": "https://github.com/gaziraihan1/freelance-marketplace-server.git"
+      "client": "https://github.com/gaziraihan1/freelance-marketplace-client.git"
     },
     "image": "/Project-1.png"
   },
@@ -48,8 +47,7 @@
     ],
     "links": {
       "live": "https://ultra-blog.netlify.app/",
-      "client": "https://github.com/gaziraihan1/Blog-page-client.git",
-      "server": "https://github.com/gaziraihan1/Blog-page-server.git"
+      "client": "https://github.com/gaziraihan1/Blog-page-client.git"
     },
     "image": "/Project-2.png"
   },
@@ -75,8 +73,7 @@
     ],
     "links": {
       "live": "https://gym-management-auth-app.web.app/",
-      "client": "https://github.com/gaziraihan1/fitness-care-client.git",
-      "server": "https://github.com/gaziraihan1/fitness-care-server.git"
+      "client": "https://github.com/gaziraihan1/fitness-care-client.git"
     },
     "image": "/Project-3.png"
   },
@@ -102,8 +99,7 @@
     ],
     "links": {
       "live": "https://skill-swap-application.vercel.app/",
-      "client": "https://github.com/gaziraihan1/skill-swap-client.git",
-      "server": "https://github.com/gaziraihan1/skill-swap-server.git"
+      "client": "https://github.com/gaziraihan1/skill-swap-client.git"
     },
     "image": "/Project-4.png"
   }

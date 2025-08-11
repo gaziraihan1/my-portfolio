@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="mt-8 md:mt-14 lg:mt-20 2xl:mt-28">
+    <div className="mt-8 md:mt-14 lg:mt-20 2xl:mt-28 px-6">
         <h1 className="text-center text-2xl lg:text-3xl font-bold text-white mb-8">
           📬 Contact
         </h1>

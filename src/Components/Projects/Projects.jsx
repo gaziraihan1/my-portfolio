@@ -6,7 +6,7 @@ import { Link } from "react-router";
 
 const Projects = () => {
   return (
-    <div className="mt-8 md:mt-14 lg:mt-20 2xl:mt-28">
+    <div className="mt-8 md:mt-14 lg:mt-20 2xl:mt-28 px-6">
         <h1 className="text-center text-3xl font-bold text-white mb-10">
           🚀 Projects
         </h1>
@@ -14,7 +14,7 @@ const Projects = () => {
         {projects.map((project) => (
           <motion.div
             key={project.id}
-            whileHover={{ scale: 1.02 }}
+            whileHover={{ scale: 1.01 }}
             whileTap={{ scale: 0.98 }}
             className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col"
           >
@@ -52,7 +52,7 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="mt-6 flex justify-between items-center flex-wrap">
+              <div className="mt-6 flex justify-between items-center flex-wrap gap-4">
                 <Link to={`/project-details/${project.id}`} className="px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors">
                 Details
                 </Link>
@@ -64,25 +64,16 @@ const Projects = () => {
                 >
                   Live Demo
                 </a>
-                <div className="flex gap-2">
-
+               
                 <a
                   href={project.links.client}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-lg border border-gray-500 text-gray-300 text-sm font-medium hover:bg-gray-700 transition-colors"
+                  className="rounded-lg text-gray-200 text-sm font-medium btn btn-secondary transition-colors"
                 >
                   Client
                 </a>
-                <a
-                  href={project.links.server}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-lg border border-gray-500 text-gray-300 text-sm font-medium hover:bg-gray-700 transition-colors"
-                >
-                  Server
-                </a>
-                </div>
+                
               </div>
             </div>
           </motion.div>

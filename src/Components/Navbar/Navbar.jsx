@@ -26,7 +26,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="z-50 flex lg:w-11/12 2xl:w-10/12 lg:mx-auto justify-between items-center px-4 lg:px-0  py-2 overflow-x-hidden">
+    <nav className="z-50 flex lg:w-11/12 2xl:w-10/12 lg:mx-auto justify-between items-center lg:px-0  py-2 overflow-x-hidden">
       <div>
         <img
           src="/my-logo-3.avif"
