@@ -23,14 +23,16 @@ const About = () => {
           Hi! I’m <span className="font-semibold text-white">Mohammad Raihan Gazi</span>, 
           a passionate front-end developer from Dhaka, Bangladesh. I enjoy 
           creating beautiful, responsive web apps using{" "}
-          <span className="text-green-400 font-medium">React</span> and{" "}
+          <span className="text-green-400 font-medium">React <span className="text-gray-300">,</span> Next JS</span> and{" "}
           <span className="text-green-400 font-medium">Tailwind CSS</span>. My
           goal is to build fast, accessible, and visually pleasing websites that
           provide value to users.
         </p>
 
         <p className="text-gray-300 text-lg leading-relaxed">
-          Currently expanding my skills in{" "}
+          Currently expanding my skills in{" "} <span className="font-medium text-yellow-400">
+            Typescript
+          </span> , {" "}
           <span className="font-medium text-yellow-400">Node.js</span> and{" "}
           <span className="font-medium text-yellow-400">MongoDB</span> to become
           a full-stack developer. I’m open to freelance projects, internships,

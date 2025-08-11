@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
 
@@ -8,19 +8,44 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <a href="/" className="hover:text-blue-400 transition-colors duration-300">Home</a>
+        <a
+          href="/"
+          className="hover:text-blue-400 transition-colors duration-300"
+        >
+          Home
+        </a>
       </li>
       <li>
-        <a href="#about-me" className="hover:text-blue-400 transition-colors duration-300">About me</a>
+        <a
+          href="#about-me"
+          className="hover:text-blue-400 transition-colors duration-300"
+        >
+          About me
+        </a>
       </li>
       <li>
-        <a href="#skills" className="hover:text-blue-400 transition-colors duration-300">Skills</a>
+        <a
+          href="#skills"
+          className="hover:text-blue-400 transition-colors duration-300"
+        >
+          Skills
+        </a>
       </li>
       <li>
-        <a href="#projects" className="hover:text-blue-400 transition-colors duration-300">Projects</a>
+        <a
+          href="#projects"
+          className="hover:text-blue-400 transition-colors duration-300"
+        >
+          Projects
+        </a>
       </li>
       <li>
-        <a href="#contact" className="hover:text-blue-400 transition-colors duration-300">Contact</a>
+        <a
+          href="#contact"
+          className="hover:text-blue-400 transition-colors duration-300"
+        >
+          Contact
+        </a>
       </li>
     </>
   );
@@ -41,9 +66,9 @@ const Navbar = () => {
 
       <div className="hidden lg:block">
         <button className="px-6 py-2 bg-primary text-white rounded-md hover:bg-opacity-80 transition-all duration-300">
-          <a href="/resume-viewer"
-              target="_blank"
-              rel="noopener noreferrer">Resume</a>
+          <a href="/resume-viewer" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
         </button>
       </div>
 
@@ -60,7 +85,9 @@ const Navbar = () => {
             {links}
             <li>
               <button className="px-6 py-2 bg-primary text-white rounded-md hover:bg-opacity-80 transition-all duration-300">
-                  <a href="/resume-001.pdf" download>Resume</a>
+                <a href="/my-resume-updated.pdf" download>
+                  Resume
+                </a>
               </button>
             </li>
           </ul>
