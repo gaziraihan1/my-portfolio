@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -19,18 +18,15 @@ const BackgroundAnimation = () => {
   return (
     <Particles
       id="tsparticles"
-       options={{
-  fpsLimit: 60,
-  particles: {
-    number: { value: 100 },
-    color: { value: "#7f5af0" },
-    shape: { type: "circle" },
-    opacity: { value: 0.5 },
-    size: { value: 3 },
-    links: { enable: true, color: "#7f5af0", distance: 150, opacity: 0.4 },
-    move: { enable: true, speed: 1 },
-  },
-}}
+      options={{
+        particles: {
+          number: { value: 100 },
+          color: { value: "#ffffff" },
+          shape: { type: "circle" },
+          size: { value: { min: 1, max: 3 } },
+          move: { enable: true, speed: 0.5, direction: "bottom" },
+        },
+      }}
       className="absolute inset-0 -z-10"
     />
   );

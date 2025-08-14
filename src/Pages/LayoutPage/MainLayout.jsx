@@ -7,7 +7,6 @@ import BackgroundAnimation from '../../Components/BackgroundAnimation/Background
 const MainLayout = () => {
   return (
     <div>
-      <BackgroundAnimation />
       <header className='px-6 py-2 md:px-12 lg:px-7 md:py-3 lg:py-4 sticky top-0 z-50 bg-base-100'>
         <Navbar />
       </header>
