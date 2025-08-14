@@ -5,7 +5,7 @@ import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 const Banner = () => {
   return (
     <section className="mt-6 md:mt-10 lg:mt-14 2xl:mt-18 relative overflow-hidden mx-6 md:mx-4 lg:mx-6 px-4">
-      <div className="absolute top-0 right-0 w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-green-400/20 via-blue-500/10 to-purple-400/20 blur-3xl pointer-events-none"></div>
+      <div className="absolute top-0 right-0 w-[300px] h-[300px] rounded-full pointer-events-none"></div>
 
       <div
         className="

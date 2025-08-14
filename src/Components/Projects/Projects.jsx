@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import projects from "../../assets/projects.json";
 import * as SiIcons from "react-icons/si";
 import { Link } from "react-router";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -12,8 +13,10 @@ const Projects = () => {
         </h1>
       <div className="mt-8 md:mt-6 lg:mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
+          <Link key={project.id} to={`/project-details/${project.id}`}>
+          
           <motion.div
-            key={project.id}
+            
             whileHover={{ scale: 1.01 }}
             whileTap={{ scale: 0.98 }}
             className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col"
@@ -52,31 +55,21 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="mt-6 flex justify-between items-center flex-wrap gap-4">
-                <Link to={`/project-details/${project.id}`} className="px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors">
-                Details
-                </Link>
-                <a
-                  href={project.links.live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-lg bg-indigo-600 text-white text-sm font-medium hover:bg-indigo-700 transition-colors"
-                >
-                  Live Demo
-                </a>
-               
-                <a
-                  href={project.links.client}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-lg text-gray-200 text-sm font-medium btn btn-secondary transition-colors"
-                >
-                  Client
-                </a>
-                
+              <div className="mt-6 flex gap-4 ">   
+                  
+                    <a href={project.links.live} className="flex items-center gap-1 px-3 py-1 bg-green-500 text-white rounded hover:bg-green-600 transition" > Live Demo <FaExternalLinkAlt /></a> 
+                  <a
+                    href={project.links.client}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                     className="flex items-center gap-1 px-3 py-1 bg-gray-600 text-white rounded hover:bg-gray-700 transition"
+                  >
+                    <FaGithub /> GitHub
+                  </a>
               </div>
             </div>
           </motion.div>
+          </Link>
         ))}
       </div>
     </div>

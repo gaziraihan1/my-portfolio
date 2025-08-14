@@ -55,7 +55,11 @@ export default function Skills() {
       <h2 className="text-center text-3xl font-bold text-white mb-10">💡 My Skills</h2>
 
       {skillCategories.map(({ title, skills }, idx) => (
-        <div key={idx} className="mb-6">
+        <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        key={idx} className="mb-6">
           <h3 className="text-2xl font-semibold text-blue-400 mb-6 border-b border-blue-500 w-max">
             {title}
           </h3>
@@ -72,7 +76,7 @@ export default function Skills() {
               </motion.div>
             ))}
           </div>
-        </div>
+        </motion.div>
       ))}
     </section>
   );

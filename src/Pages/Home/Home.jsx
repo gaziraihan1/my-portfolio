@@ -4,10 +4,12 @@ import About from "../../Components/About/About";
 import Skills from "../../Components/Skill/Skills";
 import Projects from "../../Components/Projects/Projects";
 import Contact from "../../Components/Contact/Contact";
+import BackgroundAnimation from "../../Components/BackgroundAnimation/BackgroundAnimation";
 
 const Home = () => {
   return (
     <div className="min-h-screen flex flex-col gap-4">
+      <BackgroundAnimation />
       <Bannner />
       <section id="about-me">
         <About />
