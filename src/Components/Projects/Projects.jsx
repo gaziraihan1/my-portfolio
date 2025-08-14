@@ -13,14 +13,14 @@ const Projects = () => {
         </h1>
       <div className="mt-8 md:mt-6 lg:mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
-          <Link key={project.id} to={`/project-details/${project.id}`}>
-          
-          <motion.div
-            
+           <motion.div
+            key={project.id}
             whileHover={{ scale: 1.01 }}
             whileTap={{ scale: 0.98 }}
             className="bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col"
           >
+            <Link to={`/project-details/${project.id}`}>
+            
             <div className="relative group">
               <img
                 src={project.image}
@@ -55,7 +55,10 @@ const Projects = () => {
                 </div>
               </div>
 
-              <div className="mt-6 flex gap-4 ">   
+              
+            </div>
+            </Link>
+            <div className="flex gap-4 px-5 pb-5">   
                   
                     <a href={project.links.live} className="flex items-center gap-1 px-3 py-1 bg-green-500 text-white rounded hover:bg-green-600 transition" > Live Demo <FaExternalLinkAlt /></a> 
                   <a
@@ -67,9 +70,7 @@ const Projects = () => {
                     <FaGithub /> GitHub
                   </a>
               </div>
-            </div>
           </motion.div>
-          </Link>
         ))}
       </div>
     </div>

@@ -20,7 +20,6 @@ const BackgroundAnimation = () => {
     <Particles
       id="tsparticles"
        options={{
-  background: { color: "#0f2027" },
   fpsLimit: 60,
   particles: {
     number: { value: 100 },
